@@ -1,0 +1,354 @@
+html{
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  color: #000;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  background-size:cover;
+  box-sizing: border-box;
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+}
+header{
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  position:absolute;
+  z-index: 10;
+}
+.Header-Container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px 0 36px;
+  max-width: 100%;
+  position: relative;
+}
+.header_logo{
+  height:20px;
+  display:flex;
+}
+.header_logo:hover{
+  opacity:0.8;
+}
+a.nocolor_noline{
+  text-decoration:none;
+  color:black
+}
+.header_menu{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hamburger{
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  transition: 1s;
+  right:0px;
+  top:0px;
+}
+.Hamburger-line{
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2.5px;
+  background-color: #030303;
+  transition: 1s;
+  border-radius: 4px;
+}
+#line1 {
+  top: 0;
+}
+#line2 {
+  top: 9px;
+}
+#line3 {
+  bottom: 1.5px;
+}
+
+ul{
+  list-style: none;
+  justify-content: space-between;
+  position:absolute;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  right:0px;
+}
+li{
+  display:inline-block;
+  text-align: -webkit-match-parent;
+  margin-right: 45px;
+}
+li:last-of-type{
+  margin-right: 0;
+}
+.header_counseling:hover{
+  opacity:0.8;
+}
+.header_counseling{
+  border-radius: 38px;
+  background-color: #F79214;
+  color:white;
+  width:auto;
+  margin: 10px;
+  padding:15px;
+  font-size:12px;
+}
+.menu_en{
+  display:block;
+  font-size:14px;
+  font-weight:700;
+}
+.menu_ja{
+  display:block;
+  font-size:10px;
+  font-weight:700;
+}
+.header_menu_link{
+  text-align:center;
+  float:right;
+  margin:10px;
+  display:inline;
+}
+.FirstView{
+  position:relative;
+  z-index:9;
+  background-image:url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 28px;
+  padding-top: 100px;
+  padding-bottom:28px;
+}
+.FirstViewContain{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width:fit-content;
+  position: relative;
+}
+.FirstView_container{
+  margin-bottom:70px;
+  width: fit-content;
+  margin:0;
+}
+.FirstView_phrase{
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.FirstView_Circle{
+  margin-bottom:25px;
+}
+.FirstView_Circle > img{
+  vertical-align: middle;
+}
+.FirstView_botton{
+  display: flex;
+}
+.FirstView_botton > a{
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+.FirstView_botton > a:first-of-type{
+  width:306px ;
+  margin-right: 15px;
+}
+.FirstView_botton > a:last-of-type{
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  color: #000;
+  width: 176px;
+}
+.FirstView_Caption{
+  display: block;
+  margin-top:70px;
+  color: #A2A2A4;
+  font-size: 12px;
+  text-size-adjust: 100;
+  line-height: 18px;
+}
+.Firstview_nocolor_noline{
+  color: #A2A2A4;
+  text-decoration:none;
+}
+.Introduction-Wrapper{
+  background-color: #F79214;
+  color:white;
+  padding:45px 0 45px 0;
+}
+.Introduction{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 171px;
+}
+.Introduction-About{
+  width:53%;
+}
+.Introduction-About > h2{
+  font-size: 40px;
+  letter-spacing: 1px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  margin:0;
+}
+.Introduction-About > h2 > br{
+  display: none;
+}
+.Introduction-About > p{
+  font-size:16px;
+}
+.Introduction-Content{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 15px;
+  width:250px;
+}
+.Introduction-Content > a{
+  align-items: center;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  color: #F79214;
+  background-color: #fff;
+}
+.intro_en{
+  font-size: 24px;
+}
+.intro_ja{
+  font-size:12px;
+}
+
+@media screen and  (max-width:1080px) {
+  header{
+    position:relative;
+  }
+  .header_menu_link{
+    display:none;
+  }
+  .Hamburger{
+    display: block;
+  }
+  .Introduction{
+  flex-direction:column;
+  height: auto;
+  }
+  .Introduction-About{
+    width:100%;
+  }
+}
+@media screen and (min-width:768px) {
+  .FirstView_img--sp{
+    display:none;
+  }
+}
+@media screen and (max-width:767px) {
+  header{
+    position:relative;
+  }
+  .FirstView{
+    background-image: none;
+    margin:0;
+    padding-top:0px;
+    padding-bottom:35px;
+    }
+  .FirstView_img{
+    width:auto;
+    }
+  .Firstview_img--sp{
+    display:block;
+    width:100%;
+    vertical-align: middle;
+  }
+  .FirstView_container{
+    margin-bottom: 20px;
+    margin-top:-45vw;
+    width:auto;
+    height:auto;
+  }
+  .FirstView_phrase{
+    font-size:25px;
+    margin-top: 0;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1); 
+    line-height:150%;
+  }
+  .FirstView_botton{
+    width: 100% !important;
+    display: block;
+  }
+  .FirstView_botton > a:last-of-type{
+    display: none;
+  }
+  .FirstView_botton > a:first-of-type{
+    width:100%;
+  }
+  .FirstView_Caption{
+    margin:0;
+  }
+  .FirstView_Circle{
+    width:100%;
+  }
+  .leftcircle{
+    width:27.5%;
+  }
+  .rightcircle{
+    width:27.5%;
+  }
+  .centercircle{
+    width:40%;
+  }
+  .Introduction-About > h2{
+    text-align: center;
+  }
+  .Introduction-About > h2 > br{
+    display: block;
+  }
+}
